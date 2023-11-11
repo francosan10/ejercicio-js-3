@@ -3,7 +3,7 @@
 function parImpar(numero) {
     
     if (isNaN(numero) || numero == null || numero == "") {
-        document.write("Por favor, introduce un número válido.");
+        document.write("Por favor, introduce un dato válido.");
     } else if (numero % 2 === 0) {
         document.write(`<p>El número ${numero} es par.</p>`);
     } else {
