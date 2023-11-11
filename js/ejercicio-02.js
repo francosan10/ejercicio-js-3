@@ -13,12 +13,12 @@ while (true) {
 // Mostrar la longitud del arreglo.
 document.write(`<p>La longitud del arreglo es ${ciudades.length}</p>`);
 // Mostrar en el documento web los ítems de las posiciones primera, tercera y última.
-document.write(`<p>Los items de las posiciones son: <br><b>Primerer</b> elemento: ${ciudades[0]} <br><b>Segundodo</b> elemento: ${ciudades[2]} <br><b>Ultimo</b> elemento: ${ciudades[ciudades.length -1]}</p>`);
+document.write(`<p>Los items de las posiciones son: <br><b>Primerera posición:</b> ${ciudades[0]} <br><b>Tercera posición:</b> ${ciudades[2]} <br><b>Ultima posición:</b> ${ciudades[ciudades.length -1]}</p>`);
 // Añade en última posición la ciudad de París.
 ciudades.push('París');
 document.write(`<p>La última posicion contiene a: ${ciudades[ciudades.length -1]}</p>`);
 // Escribe por pantalla el elemento que ocupa la segunda posición.
-document.write(`El elemento que ocupa la segunda posición es ${ciudades[1]}`);
+document.write(`El elemento que ocupa la <b>segunda posición</b> es: ${ciudades[1]}`);
 // Arreglo de ciudades
 document.write('<h1>Ciudades elegidas</h1>');
 
