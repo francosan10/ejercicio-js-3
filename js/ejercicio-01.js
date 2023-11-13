@@ -1,14 +1,25 @@
 // 1- Crear un array llamado meses y que almacene el nombre de los doce meses del año. Mostrar por pantalla en forma de lista los doce nombres del arreglo.
 
-const meses = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'];
+const meses = [
+  "Enero",
+  "Febrero",
+  "Marzo",
+  "Abril",
+  "Mayo",
+  "Junio",
+  "Julio",
+  "Agosto",
+  "Septiembre",
+  "Octubre",
+  "Noviembre",
+  "Diciembre",
+];
 
-document.write('<h1>Meses del año 🗓️</h1>');
+document.write("<h1>Meses del año 🗓️</h1>");
 
-document.write('<ul>');
+document.write("<ul>");
 for (let index = 0; index < meses.length; index++) {
-    document.write(`<li>${meses[index]}</li>`);
+  document.write(`<li>${meses[index]}</li>`);
 }
 
-document.write('</ul>');
-
-
+document.write("</ul>");

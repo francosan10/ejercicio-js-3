@@ -1,0 +1,17 @@
+body {
+    background-image: url(https://img.freepik.com/vector-gratis/patron-fisuras-material-escolar-oficina_107791-9568.jpg);
+}
+table {
+    background-color: aliceblue;
+    z-index: 2;
+    margin: 20vh auto;
+    border: 2px solid rgb(88, 226, 92);
+}
+td, th {
+    padding: 10px 0;
+    border: 2px solid rgb(65, 126, 187);
+}
+
+h3 {
+    padding: 0 10px;
+}
